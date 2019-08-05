@@ -1,4 +1,5 @@
 <?php 
 $alo = "sfdfasda";
-$con = "";
+$con = "đm";
+$cho = "qq";
  ?>
