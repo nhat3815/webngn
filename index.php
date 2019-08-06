@@ -1,5 +1,5 @@
-<!DOCTYPE php>
-<php lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <title>NGN - Corp</title>
   <meta charset="utf-8">
@@ -37,7 +37,7 @@
       </button>
 
       <div class="collapse navbar-collapse" id="ftco-nav">
-        <ul class="navbar-nav ml-auto">
+        <ul class=" navbar-nav ml-auto">
           <li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
           <li class="nav-item"><a href="practice.php" class="nav-link">Practice Areas</a></li>
           <li class="nav-item"><a href="won.php" class="nav-link">Won Cases</a></li>
@@ -529,4 +529,4 @@
 <script src="js/main.js"></script>
 
 </body>
-</php>
+</html>

@@ -29,19 +29,19 @@
     
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar" data-aos="fade-down" data-aos-delay="500">
       <div class="container">
-        <a class="navbar-brand" href="index.html"><span class="flaticon-gavel"></span> theOrder</a>
+        <a class="navbar-brand" href="index.php"><span class="flaticon-gavel"></span> theOrder</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="oi oi-menu"></span> Menu
         </button>
 
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="practice.html" class="nav-link">Practice Areas</a></li>
-            <li class="nav-item"><a href="won.html" class="nav-link">Won Cases</a></li>
-            <li class="nav-item active"><a href="blog.html" class="nav-link">Blog</a></li>
-            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="practice.php" class="nav-link">Practice Areas</a></li>
+            <li class="nav-item"><a href="won.php" class="nav-link">Won Cases</a></li>
+            <li class="nav-item active"><a href="blog.php" class="nav-link">Blog</a></li>
+            <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -65,7 +65,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-lg-4 blog-entry" data-aos="fade-up">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_5.jpg');">
+            <a href="blog-single.php" class="block-20" style="background-image: url('images/image_5.jpg');">
             </a>
             <div class="text">
               <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
@@ -77,7 +77,7 @@
             </div>
           </div>
           <div class="col-md-6 col-lg-4 blog-entry" data-aos="fade-up">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_6.jpg');">
+            <a href="blog-single.php" class="block-20" style="background-image: url('images/image_6.jpg');">
             </a>
             <div class="text">
               <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
@@ -89,7 +89,7 @@
             </div>
           </div>
           <div class="col-md-6 col-lg-4 blog-entry" data-aos="fade-up">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_7.jpg');">
+            <a href="blog-single.php" class="block-20" style="background-image: url('images/image_7.jpg');">
             </a>
             <div class="text">
               <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
@@ -101,7 +101,7 @@
             </div>
           </div>
           <div class="col-md-6 col-lg-4 blog-entry" data-aos="fade-up">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_8.jpg');">
+            <a href="blog-single.php" class="block-20" style="background-image: url('images/image_8.jpg');">
             </a>
             <div class="text">
               <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
@@ -113,7 +113,7 @@
             </div>
           </div>
           <div class="col-md-6 col-lg-4 blog-entry" data-aos="fade-up">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_9.jpg');">
+            <a href="blog-single.php" class="block-20" style="background-image: url('images/image_9.jpg');">
             </a>
             <div class="text">
               <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
@@ -125,7 +125,7 @@
             </div>
           </div>
           <div class="col-md-6 col-lg-4 blog-entry" data-aos="fade-up">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_10.jpg');">
+            <a href="blog-single.php" class="block-20" style="background-image: url('images/image_10.jpg');">
             </a>
             <div class="text">
               <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
