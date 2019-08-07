@@ -1,619 +1,1070 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Suite &mdash; Colorlib Website Template</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
 
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Work+Sans:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
+	<!-- Basic Page Needs
+	================================================== -->
+	<meta charset="utf-8">
+    <title>BizCraft - Responsive Html5 Template</title>
+    <meta name="description" content="">	
+	<meta name="author" content="">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/jquery-ui.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/animate.css">
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelementplayer.min.css">
-    
-    
-    
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-  
-    <link rel="stylesheet" href="css/aos.css">
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <link rel="stylesheet" href="css/style.css">
-    
-  </head>
-  <body>
-  
-  <div class="site-wrap">
+	<!-- Favicons
+	================================================== -->
+	<link rel="icon" href="img/favicon/favicon-32x32.png" type="image/x-icon" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/favicon-144x144.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/favicon-72x72.png">
+	<link rel="apple-touch-icon-precomposed" href="img/favicon/favicon-54x54.png">
+	
+	<!-- CSS
+	================================================== -->
+	
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Template styles-->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Responsive styles-->
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- Animation -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Prettyphoto -->
+	<link rel="stylesheet" href="css/prettyPhoto.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.css">
+	<!-- Flexslider -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Flexslider -->
+	<link rel="stylesheet" href="css/cd-hero.css">
+	<!-- Style Swicther -->
+	<link id="style-switch" href="css/presets/preset3.css" media="screen" rel="stylesheet" type="text/css">
 
-    <div class="site-mobile-menu">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
-    </div> <!-- .site-mobile-menu -->
-    
-    
-    <div class="site-navbar-wrap js-site-navbar bg-white">
-      
-      <div class="container">
-        <div class="site-navbar bg-light">
-          <div class="py-1">
-            <div class="row align-items-center">
-              <div class="col-2">
-                <h2 class="mb-0 site-logo"><a href="index.html">Suites</a></h2>
-              </div>
-              <div class="col-10">
-                <nav class="site-navigation text-right" role="navigation">
-                  <div class="container">
-                    
-                    <div class="d-inline-block d-lg-none  ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle"><span class="icon-menu h3"></span></a></div>
-                    <ul class="site-menu js-clone-nav d-none d-lg-block">
-                      <li class="active">
-                        <a href="index.html">Home</a>
-                      </li>
-                      <li class="has-children">
-                        <a href="rooms.html">Rooms</a>
-                        <ul class="dropdown arrow-top">
-                          <li><a href="rooms.html">Standard Room</a></li>
-                          <li><a href="rooms.html">Family Room</a></li>
-                          <li><a href="rooms.html">Single Room</a></li>
-                          <li class="has-children">
-                            <a href="rooms.html">Rooms</a>
-                            <ul class="dropdown">
-                              <li><a href="rooms.html">America</a></li>
-                              <li><a href="rooms.html">Europe</a></li>
-                              <li><a href="rooms.html">Asia</a></li>
-                              <li><a href="rooms.html">Africa</a></li>
-                              
-                            </ul>
-                          </li>
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
 
-                        </ul>
-                      </li>
-                      <li><a href="events.html">Events</a></li>
-                      <li><a href="about.html">About</a></li>
-                      <li><a href="contact.html">Contact</a></li>
+</head>
+	
+<body>
+
+	<!-- Style switcher start -->
+	<div class="style-switch-wrapper">
+		<div class="style-switch-button">
+			<i class="fa fa-sliders"></i>
+		</div>
+		<h3>Style Options</h3>
+		<button id="preset1" class="btn btn-sm btn-primary"></button>
+		<button id="preset2" class="btn btn-sm btn-primary"></button>
+		<button id="preset3" class="btn btn-sm btn-primary"></button>
+		<button id="preset4" class="btn btn-sm btn-primary"></button>
+		<button id="preset5" class="btn btn-sm btn-primary"></button>
+		<button id="preset6" class="btn btn-sm btn-primary"></button>
+		<br/><br/>
+		<a class="btn btn-sm btn-primary close-styler pull-right">Close X</a>
+	</div>
+	<!-- Style switcher end -->
+
+	<div class="body-inner">
+
+	<!-- Header start -->
+	<header id="header" class="navbar-fixed-top header" role="banner">
+		<div class="container">
+			<div class="row">
+				<!-- Logo start -->
+				<div class="navbar-header">
+				   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				    </button>
+				    <div class="navbar-brand navbar-bg">
+					    <a href="index.html">
+					    	<img class="img-responsive" src="images/logo.png" alt="logo">
+					    </a> 
+				    </div>                   
+				</div><!--/ Logo end -->
+				<nav class="collapse navbar-collapse clearfix" role="navigation">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown active">
+                       		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <i class="fa fa-angle-down"></i></a>
+                       		<div class="dropdown-menu">
+								<ul>
+		                            <li class="active"><a href="index.html">Home 1</a></li>
+		                            <li><a href="index-2.html">Home 2</a></li>
+		                            <li><a href="index-3.html">Home 3</a></li>
+		                            <li><a href="index-4.html">Home 4</a></li>
+		                        </ul>
+	                    	</div>
+	                    </li>
+						<li class="dropdown">
+                       		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Company <i class="fa fa-angle-down"></i></a>
+                       		<div class="dropdown-menu">
+								<ul>
+		                            <li><a href="about.html">About Us</a></li>
+		                            <li><a href="service.html">Services</a></li>
+		                            <li><a href="career.html">Career</a></li>
+		                            <li><a href="testimonial.html">Testimonials</a></li>
+		                            <li><a href="faq.html">Faq</a></li>
+		                        </ul>
+	                    	</div>
+	                    </li>
+						<li class="dropdown">
+                       		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <i class="fa fa-angle-down"></i></a>
+                       		<div class="dropdown-menu">
+								<ul>
+		                            <li><a href="portfolio-classic.html">Portfolio Classic</a></li>
+		                            <li><a href="portfolio-static.html">Portfolio Static</a></li>
+		                            <li><a href="portfolio-item.html">Portfolio Single</a></li>
+		                        </ul>
+	                    	</div>
+	                    </li>
+	                    <li class="dropdown">
+                       		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i></a>
+                       		<div class="dropdown-menu">
+								<ul>
+		                           	<li><a href="team.html">Our Team</a></li>
+		                           	<li><a href="about2.html">About Us - 2</a></li>
+		                           	<li><a href="service2.html">Services - 2</a></li>
+		                           	<li><a href="service-single.html">Services Single</a></li>
+		                           	<li><a href="pricing.html">Pricing Table</a></li>
+		                           	<li><a href="404.html">404 Page</a></li>
+		                        </ul>
+	                    	</div>
+	                    </li>
+	                    <li class="dropdown">
+                       		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <i class="fa fa-angle-down"></i></a>
+                       		<div class="dropdown-menu">
+								<ul>
+		                           	 <li><a href="blog-rightside.html">Blog with Sidebar</a></li>
+	                            	<li><a href="blog-item.html">Blog Single</a></li>
+		                        </ul>
+	                    	</div>
+	                    </li>
+	                    <li class="dropdown">
+                       		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Features <i class="fa fa-angle-down"></i></a>
+                       		<div class="dropdown-menu">
+								<ul>
+		                           	 <li><a href="typography.html">Typography</a></li>
+	                            	<li><a href="elements.html">Elements</a></li>
+		                        </ul>
+	                    	</div>
+	                    </li>
+            			<li><a href="contact.html">Contact</a></li>
                     </ul>
-                  </div>
-                </nav>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  
-    
-    <div class="slide-one-item home-slider owl-carousel">
-      
-      <div class="site-blocks-cover overlay" style="background-image: url(images/hero_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
-        <div class="container">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-md-7 text-center" data-aos="fade">
-              
-              <h1 class="mb-2">Welcome To Suites</h1>
-              <h2 class="caption">Hotel &amp; Resort</h2>
-            </div>
-          </div>
-        </div>
-      </div>  
+				</nav><!--/ Navigation end -->
+			</div><!--/ Row end -->
+		</div><!--/ Container end -->
+	</header><!--/ Header end -->
 
-      <div class="site-blocks-cover overlay" style="background-image: url(images/hero_2.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
-        <div class="container">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-md-7 text-center" data-aos="fade">
-              <h1 class="mb-2">Unique Experience</h1>
-              <h2 class="caption">Enjoy With Us</h2>
-            </div>
-          </div>
-        </div>
-      </div> 
+	<!-- Slider start -->
+	<section id="home" class="no-padding">	
+    	<div id="main-slide" class="cd-hero">
+			<ul class="cd-hero-slider">
+				<li class="selected">
+					<div class="overlay2">
+						<img class="" src="images/slider/bg1.jpg" alt="slider">
+					</div>
+					<div class="cd-full-width">
+						<h2>Need To Invent The Future!</h2>
+						<h3>We Making Difference To Great Things Possible</h3>
+						<a href="#0" class="btn btn-primary white cd-btn">Start Now</a>
+						<a href="#0" class="btn btn-primary solid cd-btn">Learn More</a>
+					</div> <!-- .cd-full-width -->
+				</li>
+				<li>
+					<div class="overlay2">
+						<img class="" src="images/slider/bg2.jpg" alt="slider">
+					</div>
+					<div class="cd-half-width">
+						<h2>How Big Can You Dream?</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
+						<a href="#0" class="cd-btn btn btn-primary solid">Take a Tour</a>
+					</div> <!-- .cd-half-width -->
 
-      <div class="site-blocks-cover overlay" style="background-image: url(images/hero_3.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
-        <div class="container">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-md-7 text-center" data-aos="fade">
-              <h1 class="mb-2">Relaxing Room</h1>
-              <h2 class="caption">Your Room, Your Stay</h2>
-            </div>
-          </div>
-        </div>
-      </div> 
+					<div class="cd-half-width cd-img-container">
+						<img src="images/slider/bg-thumb1.png" alt="">
+					</div> <!-- .cd-half-width.cd-img-container -->
+				</li>
+				<li>
+					<div class="overlay2">
+						<img class="" src="images/slider/bg3.jpg" alt="slider">
+					</div>
+					<div class="cd-half-width cd-img-container img-right">
+						<img src="images/slider/bg-thumb2.png" alt="">
+					</div> <!-- .cd-half-width.cd-img-container -->
+					<div class="cd-half-width">
+						<h2>Your Challenge is Our Progress</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
+						<a href="#0" class="cd-btn btn btn-primary white">Start</a>
+						<a href="#0" class="cd-btn btn secondary btn-primary solid">Learn More</a>
+					</div> <!-- .cd-half-width -->
+				</li>
+				<li class="cd-bg-video">
+					<div class="cd-full-width">
+						<h2>WE ARE HERE TO MAKE IT HAPPEN</h2>
+						<h3>We Making Difference To Great Things Possible</h3>
 
-    </div>
+						<a href="#0" class="cd-btn btn btn-primary solid">Learn more</a>
+					</div> <!-- .cd-full-width -->
 
-          <div class="ftco-section ftco-counter" id="section-counter">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap" data-aos="fade-up">
-              <div class="block-18 d-flex align-items-center">
-                <div class="icon mr-4">
-                  <span class="flaticon-lawyer"></span>
-                </div>
-                <div class="text">
-                  <strong class="number" data-number="1000">0</strong>
-                  <span>Khách hàng tiềm năng</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap" data-aos="fade-up">
-              <div class="block-18 d-flex align-items-center">
-                <div class="icon mr-4">
-                  <span class="flaticon-handshake"></span>
-                </div>
-                <div class="text">
-                  <strong class="number" data-number="12000">0</strong>
-                  <span>Dự án</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap" data-aos="fade-up">
-              <div class="block-18 d-flex align-items-center">
-                <div class="icon mr-4">
-                  <span class="flaticon-medal"></span>
-                </div>
-                <div class="text">
-                  <strong class="number" data-number="10000">0</strong>
-                  <span>Công nghệ mạng</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap" data-aos="fade-up">
-              <div class="block-18 d-flex align-items-center">
-                <div class="icon mr-4">
-                  <span class="flaticon-trophy"></span>
-                </div>
-                <div class="text">
-                  <strong class="number" data-number="12921">5143</strong>
-                  <span>Website Applications</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+					<div class="cd-bg-video-wrapper" data-video="videos/video">
+						<!-- video element will be loaded using jQuery -->
+					</div> <!-- .cd-bg-video-wrapper -->
+				</li>
+			</ul> <!--/ cd-hero-slider -->
 
-      <section class="ftco-section-2">
-        <div class="container-fluid">
-          <div class="section-2-blocks-wrapper row no-gutters">
-            <div class="img col-sm-12 col-md-6" style="background-image: url('images/image_4.jpg');" data-aos="fade-right">
-              <!-- <a href="https://vimeo.com/45830194" class="button popup-vimeo" data-aos="fade-right" data-aos-delay="700"><span class="ion-ios-play"></span></a> -->
-            </div>
-            <div class="text col-md-6">
-              <div class="text-inner align-self-start" data-aos="fade-up">
+		<div class="cd-slider-nav">
+			<nav>
+				<span class="cd-marker item-1"></span>
+				<ul>
+					<li class="selected"><a href="#0"><i class="fa fa-bicycle"></i> Invent</a></li>
+					<li><a href="#0"><i class="fa fa-hotel"></i> Dream</a></li>
+					<li><a href="#0"><i class="fa fa-android"></i> Tech</a></li>
+					<li class="video"><a href="#0"><i class="fa fa-video-camera"></i> Video</a></li>
+				</ul>
+			</nav> 
+		</div> <!-- .cd-slider-nav -->
 
-                <h2><strong>NGN - Corp</strong></h2>
-                <p><strong>NGN Corporation</strong> là Công ty Cổ phần được thành lập và hoạt động theo giấy phép kinh
-                doanh số 0306887678 do Sở Kế hoạch Đầu tư TP. Hồ Chí Minh cấp ngày 02/01/2009.</p>
-                <h2><strong>Trụ sở chính:</strong></h2><br>
-                <i class='fab fa-font-awesome-flag'></i>&emsp;<strong>Số 493/2 Cách Mạng Tháng Tám,Phường 13, Quận 10, TP.Hồ Chí Minh, Việt Nam</strong><br>
-                <i class='fas fa-phone'></i>&emsp;<strong>Tel: (84-8) 6299 7470</strong><br>                                    
-                <i class='fas fa-fax'></i>&emsp;<strong>Fax: (84-8) 6299 7469</strong><br>                                     
-                <i class='fas fa-mail-bulk'></i>&emsp;<strong>Email: huynh@ngn.com.vn</strong>
-                
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div class="ftco-section">
-        <div class="container">
-          <div class="row justify-content-center mb-5 pb-5">
-            <div class="col-md-7 text-center" data-aos="fade-up">
-              <strong><h2 style="color: orange">Dự Án</h2></strong>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-6 col-lg-4" data-aos="fade-up">
-              <div class="media block-6 d-block text-center">
-                <div class="icon mb-4"><span class="flaticon-gavel"></span></div>
-                <div class="media-body">
-                  <h3 class="heading">Tổng công ty công nghệ năng lượng dầu khí Việt Nam (PVEIC)</h3>
-                  <p>Thiết kế, lên kế
-                    hoạch cài đặt hệ thống CNTT (LDAP, DNS, Email exchange, Spam mail, Switch,
-                  HUB, router, firewall, antivirus…).</p>
-                </div>
-              </div>      
-            </div>
-
-            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-              <div class="media block-6 d-block text-center">
-                <div class="icon mb-4"><span class="flaticon-balance"></span></div>
-                <div class="media-body">
-                  <h3 class="heading">Văn phòng UBND thành phố Hồ Chí Minh</h3>
-                  <p>Hệ thống mạng, bảo mật, hệ thống lưu
-                  trữ SAN, và các dịch vụ mạng…vận hành trên công nghệ ảo hóa – điện toán đám mây.</p>
-                </div>
-              </div>      
-            </div>
-
-            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-              <div class="media block-6 d-block text-center">
-                <div class="icon mb-4"><span class="flaticon-lawyer"></span></div>
-                <div class="media-body">
-                  <h3 class="heading">Kho bạc nhà nước – Cục công nghệ thông tin</h3>
-                  <p>Tư vấn giải pháp và xây dựng
-                    phương án triển khai điện toán đám mây tại Kho bạc Nhà nước.
-                  </p>
-                </div>
-              </div>    
-            </div>
-
-            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-              <div class="media block-6 d-block text-center">
-                <div class="icon mb-4"><span class="flaticon-courthouse"></span></div>
-                <div class="media-body">
-                  <h3 class="heading">Sở thông tin và truyền thông Cần Thơ (Trung tâm dữ liệu)</h3>
-                  <p>Hệ thống mạng, bảo
-                    mật, hệ thống lưu trữ SAN, và các dịch vụ mạng…vận hành trên công nghệ ảo hóa –
-                  điện toán đám mây.</p>
-                </div>
-              </div>      
-            </div>
-
-            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
-              <div class="media block-6 d-block text-center">
-                <div class="icon mb-4"><span class="flaticon-handshake"></span></div>
-                <div class="media-body">
-                  <h3 class="heading">Văn phòng UBND tỉnh Bến Tre</h3>
-                  <p>Hệ thống mạng, bảo mật, hệ thống lưu trữ SAN, và
-                  các dịch vụ mạng…vận hành trên công nghệ ảo hóa – điện toán đám mây</p>
-                </div>
-              </div>      
-            </div>
-
-            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
-              <div class="media block-6 d-block text-center">
-                <div class="icon mb-4"><span class="flaticon-health-insurance"></span></div>
-                <div class="media-body">
-                  <h3 class="heading">Văn phòng UBND tỉnh Bạc Liêu</h3>
-                  <p>Hỗ trợ tư vấn, thiết kế Hệ thống mạng, bảo mật, hệ
-                    thống lưu trữ SAN, và các dịch vụ mạng…vận hành trên công nghệ ảo hóa – điện toán
-                  đám mây.</p>
-                </div>
-              </div>    
-            </div>
-
-          </div>
-        </div>
-      </div>
+		</div><!--/ Main slider end -->    	
+    </section> <!--/ Slider end -->
 
 
-      <div class="ftco-section testimony-img" id="ftco-testimony" style="background-image: url(images/image_10.jpg);" data-aos="fade"  data-stellar-background-ratio="0.5">
-        <div class="container">
-          <div class="row justify-content-center mb-5 pb-5">
-            <div class="col-md-7 text-center heading" data-aos="fade-up">
-              <!-- <h2>Bộ Phận</h2> -->
-            </div>
-          </div>
-        </div>
-        <div class="container-fluid">
-          <div class="row d-flex no-gutters">
-            <div class="col-lg align-self-sm-end" data-aos="fade-up">
-              <div class="testimony">
-               <blockquote>
-                <p>&ldquo; Đảm nhiệm vị trí giám đốc CNTT tại công ty Vũ Thảo giai đoạn năm 2003 đến 2007. Ông
-                  Huy đã trực tiếp tham gia tư vấn, thiết kế và triển khai dự án “Chính phủ Điện tử” tại 18
-                Văn Phòng Uỷ Ban Nhân Dân tỉnh và thành phố phía Nam.&rdquo;</p>
-              </blockquote>
-              <div class="author d-flex mt-4">
-                <div class="image mr-3 align-self-center">
-                  <img src="images/person_1.jpg" alt="">
-                </div>
-                <div class="name align-self-center">CEO<span class="position">Nguyễn Hoàng Huy</span></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg align-self-sm-end" data-aos="fade-up">
-            <div class="testimony overlay">
-             <blockquote>
-              <p>&ldquo;Thiết lập hệ thống bảo mật, firewall,....&rdquo;</p>
-            </blockquote>
-            <div class="author d-flex mt-4">
-              <div class="image mr-3 align-self-center">
-                <img src="images/person_2.jpg" alt="">
-              </div>
-              <div class="name align-self-center">System<span class="position">Dương Đình Trung Hiếu</span></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg align-self-sm-end" data-aos="fade-up">
-          <div class="testimony">
-           <blockquote>
-            <p>&ldquo;Đảm nhiệm thiết kế, xây dựng hệ thống, website ứng dụng, thiết kế Data,... &rdquo;</p>
-          </blockquote>
-          <div class="author d-flex mt-4">
-            <div class="image mr-3 align-self-center">
-              <img src="images/person_3.jpg" alt="">
-            </div>
-            <div class="name align-self-center">Software<span class="position">Bùi Như Khuê</span></div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg align-self-sm-end" data-aos="fade-up">
-        <div class="testimony overlay">
-         <blockquote>
-          <p>&ldquo;Kế toán, photographer.&rdquo;</p>
-        </blockquote>
-        <div class="author d-flex mt-4">
-          <div class="image mr-3 align-self-center">
-            <img src="images/person_2.jpg" alt="">
-          </div>
-          <div class="name align-self-center">Kế Toán <span class="position">Phan Thị Tuyết Hằng</span></div>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg align-self-sm-end" data-aos="fade-up">
-      <div class="testimony">
-        <blockquote>
-          <p>&ldquo;Hai thằng thiết kế cái Web này &rdquo;</p>
-        </blockquote>
-        <div class="author d-flex mt-4">
-          <div class="image mr-3 align-self-center">
-            <img src="images/person_3.jpg" alt="">
-          </div>
-          <div class="name align-self-center">DEV<span class="position">Chung Tú - Minh Nhật</span></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
+    <!-- Service box start -->
+	<section id="service" class="service angle">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 heading">
+					<span class="title-icon pull-left"><i class="fa fa-cogs"></i></span>
+					<h2 class="title">Service We Provide <span class="title-desc">A Quality Experience Team with 4 years experience</span></h2>
+				</div>
+			</div><!-- Title row end -->
 
-<div class="ftco-section bg-light">
-  <div class="container">
-    <div class="row justify-content-center mb-5 pb-5">
-      <div class="col-md-7 text-center"  data-aos="fade-up">
-        <h2>Ban Quản Trị</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-6 col-md-4" data-aos="fade-up">
-        <div class="block-10">
-          <div class="person-info mb-3">
-            <span class="name"><center>CEO</center></span>
-            <span class="position"><center><strong>NGUYỄN HOÀNG HUY</strong> - Giám đốc điều hành (CEO)</center>
-            </span>
-          </div>
-          <img src="images/person_1.jpg" alt="" class="img-fluid">
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4" data-aos="fade-up">
-        <div class="block-10">
-          <div class="person-info mb-3">
-            <span class="name"><center>Hardware - System</center></span>
-            <span class="position"><center><strong>Dương Đình Trung Hiếu</strong></center></span>
-          </div>
-          <img src="images/person_3.jpg" alt="" class="img-fluid">
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4" data-aos="fade-up">
-        <div class="block-10">
-          <div class="person-info mb-3">
-            <span class="name"><center>Software</center></span>
-            <span class="position"><center><strong>Bùi Như Khuê</strong></center></span>
-          </div>
-          <img src="images/person_2.jpg" alt="" class="img-fluid">
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay=".5s">
+						<div class="service-content text-center">
+							<span class="service-icon icon-pentagon"><i class="fa fa-tachometer"></i></span>
+							<h3>Web Design</h3>
+							<p>High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua polaroid befor</p>
+						</div>
+					</div><!--/ End first service -->
 
-<div class="ftco-section">
-  <div class="container">
-    <div class="row justify-content-center mb-12 pb-12">
-      <div class="col-md-12 text-center"  data-aos="fade-up">
-        <h3>Địa chỉ</h3>
-    Đây là chổ chứa map
-      </div>
-    </div>
-    <div class="row block-12" data-aos="fade-up">
- <!--        <div class="col-md-6 pr-md-5">
-   <form action="#">
-     <div class="form-group">
-       <input type="text" class="form-control" placeholder="Your Name">
-     </div>
-     <div class="form-group">
-       <input type="text" class="form-control" placeholder="Your Email">
-     </div>
-     <div class="form-group">
-       <input type="text" class="form-control" placeholder="Subject">
-     </div>
-     <div class="form-group">
-       <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-     </div>
-     <div class="form-group">
-       <input type="submit" value="Send message" class="btn btn-primary">
-     </div>
-   </form>
- </div> -->
- <div class="col-md-12" data-aos="fade-up" id="map"></div>
-</div>
-</div>
-</div>
-<hr>
-<div class="ftco-section bg-light">
-  <div class="container">
-    <div class="row justify-content-center mb-5 pb-5">
-      <div class="col-md-7 text-center"  data-aos="fade-up">
-        <h2>Our Blog</h2>
-      </div>
-    </div>
-    <div class="row" data-aos="fade-up">
-      <div class="carousel owl-carousel ftco-owl">
-        <div class="item">
-          <div class="blog-entry" data-aos="fade-up">
-            <a href="blog-single.php" class="block-20" style="background-image: url('images/image_5.jpg');">
-            </a>
-            <div class="text">
-              <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-              <div class="meta">
-                <div><a href="#"><span class="icon-calendar"></span> June 29, 2018</a></div>
-                <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="blog-entry" data-aos="fade-up" data-aos-delay="100">
-            <a href="blog-single.php" class="block-20" style="background-image: url('images/image_6.jpg');">
-            </a>
-            <div class="text">
-              <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-              <div class="meta">
-                <div><a href="#"><span class="icon-calendar"></span> June 29, 2018</a></div>
-                <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="blog-entry" data-aos="fade-up" data-aos-delay="200">
-            <a href="blog-single.php" class="block-20" style="background-image: url('images/image_7.jpg');">
-            </a>
-            <div class="text">
-              <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-              <div class="meta">
-                <div><a href="#"><span class="icon-calendar"></span> June 29, 2018</a></div>
-                <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="blog-entry" data-aos="fade-up" data-aos-delay="200">
-            <a href="blog-single.php" class="block-20" style="background-image: url('images/image_8.jpg');">
-            </a>
-            <div class="text">
-              <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-              <div class="meta">
-                <div><a href="#"><span class="icon-calendar"></span> June 29, 2018</a></div>
-                <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+					<div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay=".8s" >
+						<div class="service-content text-center">
+							<span class="service-icon icon-pentagon"><i class="fa fa-android"></i></span>
+							<h3>Apps Development</h3>
+							<p>Food truck master cleanse mixtape minim Portland, cardigan stumptown chambray swag</p>
+						</div>
+						
+					</div><!--/ End Second service -->
+
+					<div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="1.1s">
+						<div class="service-content text-center">
+							<span class="service-icon icon-pentagon"><i class="fa fa-shopping-cart"></i></span>
+							<h3>eCommerce Websites</h3>
+							<p>Neutra Thundercats craft beer, listicle meggings bicycle rights 90's XOXO beard cardiga</p>
+						</div>
+					</div><!--/ End Third service -->
+
+					<div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="1.4s">
+						<div class="service-content text-center">
+							<span class="service-icon icon-pentagon"><i class="fa fa-lightbulb-o"></i></span>
+							<h3>Design for Startups</h3>
+							<p>We design beautiful modern engaging websites that always latest responsive technologies.</p>
+						</div>
+					</div><!--/ End 4th service -->
+				</div>
+			</div><!-- Content row end -->
+		</div><!--/ Container end -->
+	</section><!--/ Service box end -->
+   
+	<!-- Portfolio start -->
+	<section id="portfolio" class="portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 heading">
+					<span class="title-icon classic pull-left"><i class="fa fa-suitcase"></i></span>
+					<h2 class="title classic">Our Awesome Work</h2>
+				</div>
+			</div> <!-- Title row end -->
+
+			<!--Isotope filter start -->
+			<div class="row text-right">
+				<div class="isotope-nav" data-isotope-nav="isotope">
+					<ul>
+						<li><a href="#" class="active" data-filter="*">All</a></li>
+						<li><a href="#" data-filter=".web-design">Web Design</a></li>
+						<li><a href="#" data-filter=".development">Development</a></li>
+						<li><a href="#" data-filter=".joomla">Joomla</a></li>
+						<li><a href="#" data-filter=".wordpress">Wordpress</a></li>
+					</ul>
+				</div>
+			</div><!-- Isotope filter end -->
+		</div>
+		
+		<div class="container-fluid">
+			<div class="row">
+				<div id="isotope" class="isotope">
+					<div class="col-sm-3 web-design isotope-item">
+						<div class="grid">
+							<figure class="effect-oscar">
+								<img src="images/portfolio/portfolio1.jpg" alt="">
+								<figcaption>
+									<h3>Startup Business</h3>
+									<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
+									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg1.jpg"><i class="fa fa-search"></i></a>            
+								</figcaption>			
+							</figure>
+						</div>
+					</div><!-- Isotope item end -->
+
+					<div class="col-sm-3 development isotope-item">
+						<div class="grid">
+							<figure class="effect-oscar">
+								<img src="images/portfolio/portfolio2.jpg" alt="">
+								<figcaption>
+									<h3>Easy to Lanunch</h3>
+									<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
+									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg2.jpg"><i class="fa fa-search"></i></a>            
+								</figcaption>				
+							</figure>
+						</div>
+					</div><!-- Isotope item end -->
+
+					<div class="col-sm-3 joomla isotope-item">
+						<div class="grid">
+							<figure class="effect-oscar">
+								<img src="images/portfolio/portfolio3.jpg" alt="">
+								<figcaption>
+									<h3>Your Business</h3>
+									<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
+									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg3.jpg"><i class="fa fa-search"></i></a>            
+								</figcaption>				
+							</figure>
+						</div>
+					</div><!-- Isotope item end -->
+
+					<div class="col-sm-3 wordpress isotope-item">
+						<div class="grid">
+							<figure class="effect-oscar">
+								<img src="images/portfolio/portfolio4.jpg" alt="">
+								<figcaption>
+									<h3>Prego Match</h3>
+									<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
+									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg4.jpg"><i class="fa fa-search"></i></a>            
+								</figcaption>					
+							</figure>
+						</div>
+					</div><!-- Isotope item end -->
+
+					<div class="col-sm-3 joomla isotope-item">
+						<div class="grid">
+							<figure class="effect-oscar">
+								<img src="images/portfolio/portfolio5.jpg" alt="">
+								<figcaption>
+									<h3>Fashion Brand</h3>
+									<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
+									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg5.jpg"><i class="fa fa-search"></i></a>            
+								</figcaption>					
+							</figure>
+						</div>
+					</div><!-- Isotope item end -->
+
+					<div class="col-sm-3 development isotope-item">
+						<div class="grid">
+							<figure class="effect-oscar">
+								<img src="images/portfolio/portfolio6.jpg" alt="">
+								<figcaption>
+									<h3>The Insidage</h3>
+									<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
+									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg1.jpg"><i class="fa fa-search"></i></a>            
+								</figcaption>					
+							</figure>
+						</div>
+					</div><!-- Isotope item end -->
+
+					<div class="col-sm-3 development isotope-item">
+						<div class="grid">
+							<figure class="effect-oscar">
+								<img src="images/portfolio/portfolio7.jpg" alt="">
+								<figcaption>
+									<h3>Light Carpet</h3>
+									<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
+									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg2.jpg"><i class="fa fa-search"></i></a>            
+								</figcaption>					
+							</figure>
+						</div>
+					</div><!-- Isotope item end -->
+
+					<div class="col-sm-3 development isotope-item">
+						<div class="grid">
+							<figure class="effect-oscar">
+								<img src="images/portfolio/portfolio8.jpg" alt="">
+								<figcaption>
+									<h3>Amazing Keyboard</h3>
+									<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
+									<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg3.jpg"><i class="fa fa-search"></i></a>            
+								</figcaption>					
+							</figure>
+						</div>
+					</div><!-- Isotope item end -->
+				</div><!-- Isotope content end -->
+			</div><!-- Content row end -->
+		</div><!-- Container end -->
+	</section><!-- Portfolio end -->
+
+	<!-- Counter Strat -->
+	<section class="ts_counter no-padding">
+		<div class="container-fluid">
+			<div class="row facts-wrapper wow fadeInLeft text-center">
+				<div class="facts one col-md-3 col-sm-6">
+					<span class="facts-icon"><i class="fa fa-user"></i></span>
+					<div class="facts-num">
+						<span class="counter">1200</span>
+					</div>
+					<h3>Clients</h3> 
+				</div>
+
+				<div class="facts two col-md-3 col-sm-6">
+					<span class="facts-icon"><i class="fa fa-institution"></i></span>
+					<div class="facts-num">
+						<span class="counter">1277</span>
+					</div>
+					<h3>Item Sold</h3> 
+				</div>
+
+				<div class="facts three col-md-3 col-sm-6">
+					<span class="facts-icon"><i class="fa fa-suitcase"></i></span>
+					<div class="facts-num">
+						<span class="counter">869</span>
+					</div>
+					<h3>Projects</h3> 
+				</div>
+
+				<div class="facts four col-md-3 col-sm-6">
+					<span class="facts-icon"><i class="fa fa-trophy"></i></span>
+					<div class="facts-num">
+						<span class="counter">76</span>
+					</div>
+					<h3>Awwards</h3> 
+				</div>
+
+			</div>
+		</div><!--/ Container end -->
+    </section><!--/ Counter end -->
+
+	<!-- Feature box start -->
+	<section id="feature" class="feature">
+		<div class="container">
+			<div class="row">
+				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+					<span class="feature-icon pull-left" ><i class="fa fa-heart-o"></i></span>
+					<div class="feature-content">
+						<h3>Clean &amp; Modern Design</h3>
+						<p>Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat</p>
+					</div>
+				</div><!--/ End first featurebox -->
+
+				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+					<span class="feature-icon pull-left" ><i class="fa fa-codepen"></i></span>
+					<div class="feature-content">
+						<h3>Useful Shortcodes</h3>
+						<p>High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua</p>
+					</div>
+				</div><!--/ End 2nd featurebox -->
+
+				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+					<span class="feature-icon pull-left" ><i class="fa fa-film"></i></span>
+					<div class="feature-content">
+						<h3>Parallax Section</h3>
+						<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut</p>
+					</div>
+				</div><!--/ End 3rd featurebox -->
+			</div><!-- Content row end -->
+
+			<div class="gap-40"></div>
+
+			<div class="row">
+				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+					<span class="feature-icon pull-left" ><i class="fa fa-newspaper-o"></i></span>
+					<div class="feature-content">
+						<h3>Multipurpose Concept</h3>
+						<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut</p>
+					</div>
+				</div><!--/ End 1st featurebox -->
+
+				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+					<span class="feature-icon pull-left" ><i class="fa fa-desktop"></i></span>
+					<div class="feature-content">
+						<h3>Responsive Layout</h3>
+						<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut</p>
+					</div>
+				</div><!--/ End 2nd featurebox -->
+
+				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+					<span class="feature-icon pull-left" ><i class="fa fa-pagelines"></i></span>
+					<div class="feature-content">
+						<h3>Light wight Performance</h3>
+						<p>High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua</p>
+					</div>
+				</div><!--/ End 3rd featurebox -->
+
+			</div><!-- Content row end -->
+
+			<div class="gap-40"></div>
+
+			<div class="row">
+				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+					<span class="feature-icon pull-left" ><i class="fa fa-recycle"></i></span>
+					<div class="feature-content">
+						<h3>Free Lifetime Updates</h3>
+						<p>Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat</p>
+					</div>
+				</div><!--/ End first featurebox -->
+
+				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+					<span class="feature-icon pull-left" ><i class="fa fa-diamond"></i></span>
+					<div class="feature-content">
+						<h3>Endless Possibilites</h3>
+						<p>High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua</p>
+					</div>
+				</div><!--/ End first featurebox -->
+
+				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+					<span class="feature-icon pull-left" ><i class="fa fa-whatsapp"></i></span>
+					<div class="feature-content">
+						<h3>24/7 Live Support</h3>
+						<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut</p>
+					</div>
+				</div><!--/ End first featurebox -->
+			</div><!-- Content row end -->
+
+		</div><!--/ Container end -->
+	</section><!--/ Feature box end -->
 
 
-<footer class="ftco-footer ftco-bg-dark ftco-section">
-  <div class="container">
-    <div class="row mb-5">
-      <div class="col-md">
-        <div class="ftco-footer-widget mb-4">
-          <h2 class="ftco-heading-2">About theOrder</h2>
-          <ul class="list-unstyled">
-            <li><a href="#" class="py-2 d-block">About Us</a></li>
-            <li><a href="#" class="py-2 d-block">Lawyers</a></li>
-            <li><a href="#" class="py-2 d-block">Blog</a></li>
-            <li><a href="#" class="py-2 d-block">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md">
-       <div class="ftco-footer-widget mb-4">
-        <h2 class="ftco-heading-2">Communities</h2>
-        <ul class="list-unstyled">
-          <li><a href="#" class="py-2 d-block">Support</a></li>
-          <li><a href="#" class="py-2 d-block">Practice Areas</a></li>
-          <li><a href="#" class="py-2 d-block">Won Cases</a></li>
-          <li><a href="#" class="py-2 d-block">Privacy</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="col-md">
-     <div class="ftco-footer-widget mb-4">
-      <h2 class="ftco-heading-2">Contact Information</h2>
-      <ul class="list-unstyled">
-        <li><a href="#" class="py-2 d-block">198 West 21th Street, Suite 721 New York NY 10016</a></li>
-        <li><a href="#" class="py-2 d-block">+ 1235 2355 98</a></li>
-        <li><a href="#" class="py-2 d-block">info@yoursite.com</a></li>
-        <li><a href="#" class="py-2 d-block">email@email.com</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="col-md">
-   <div class="ftco-footer-widget mb-4">
-    <h2 class="ftco-heading-2">Opening Hours</h2>
-    <ul class="list-unstyled">
-      <li><a href="#" class="py-2 d-block">Mon - Thu: 9:00 - 21 00</a></li>
-      <li><a href="#" class="py-2 d-block">Fri 8:00 - 21 00</a></li>
-      <li><a href="#" class="py-2 d-block">Sat 9:30 - 15: 00</a></li>
-    </ul>
-  </div>
-</div>
-</div>
-<div class="row">
-  <div class="col-md-12 text-center">
+	<section id="image-block" class="image-block no-padding">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6 ts-padding" style="height:650px;background:url(images/image-block-bg.jpg) 50% 50% / cover no-repeat;">
+				</div>
+				<div class="col-md-6 ts-padding img-block-right">
+					<div class="img-block-head text-center">
+						<h2>Know More About Our Company</h2>
+						<h3>Why Choose Us</h3>
+						<p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Proin gravida nibh vel velit auctor Aenean sollicitudin, adipisicing elit sed lorem quis bibendum auctor.
+						</p>
+					</div>
 
-    <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-      Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" class="text-primary">Colorlib</a>
-      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-    </div>
-  </div>
-</div>
-</footer>
+					<div class="gap-30"></div>
 
-<!-- loader -->
-<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+					<div class="image-block-content">
+						<span class="feature-icon pull-left" ><i class="fa fa-bicycle"></i></span>
+						<div class="feature-content">
+							<h3>Tons of Features</h3>
+							<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut</p>
+						</div>
+					</div><!--/ End 1st block -->
 
-  </div>
+					<div class="image-block-content">
+						<span class="feature-icon pull-left" ><i class="fa fa-diamond"></i></span>
+						<div class="feature-content">
+							<h3>PowerPack Theme</h3>
+							<p>Proin gravida nibh vel velit auctor Aenean sollicitudin adipisicing</p>
+						</div>
+					</div><!--/ End 1st block -->
 
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/jquery-ui.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/jquery.countdown.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/bootstrap-datepicker.min.js"></script>
-  <script src="js/aos.js"></script>
+					<div class="image-block-content">
+						<span class="feature-icon pull-left" ><i class="fa fa-street-view"></i></span>
+						<div class="feature-content">
+							<h3>Day Night Support</h3>
+							<p>Simply dummy text and typesettings industry has been the industry</p>
+						</div>
+					</div><!--/ End 1st block -->
 
-  
-  <script src="js/mediaelement-and-player.min.js"></script>
+				</div>
+			</div>
+		</div>
+	</section><!--/ Image block end -->
 
-  <script src="js/main.js"></script>
-    
 
-  <script>
-      document.addEventListener('DOMContentLoaded', function() {
-                var mediaElements = document.querySelectorAll('video, audio'), total = mediaElements.length;
+	<!-- Team start -->
+	<section id="team" class="team">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 heading">
+					<span class="title-icon pull-left"><i class="fa fa-weixin"></i></span>
+					<h2 class="title">Meet with our Team <span class="title-desc">A Quality Experience Team with 4 years experience</span></h2>
+				</div>
+			</div><!-- Title row end -->
 
-                for (var i = 0; i < total; i++) {
-                    new MediaElementPlayer(mediaElements[i], {
-                        pluginPath: 'https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/',
-                        shimScriptAccess: 'always',
-                        success: function () {
-                            var target = document.body.querySelectorAll('.player'), targetTotal = target.length;
-                            for (var j = 0; j < targetTotal; j++) {
-                                target[j].style.visibility = 'visible';
-                            }
-                  }
-                });
-                }
-            });
-    </script>
+			<div class="row text-center">
+				<div class="col-md-3 col-sm-6">
+					<div class="team wow slideInLeft">
+						<div class="img-hexagon">
+							<img src="images/team/team1.jpg" alt="">
+							<span class="img-top"></span>
+							<span class="img-bottom"></span>
+						</div>
+						<div class="team-content">
+							<h3>Vosgi Varduhi</h3>
+							<p>Web Designer</p>
+							<div class="team-social">
+								<a class="fb" href="#"><i class="fa fa-facebook"></i></a>
+								<a class="twt" href="#"><i class="fa fa-twitter"></i></a>
+								<a class="gplus" href="#"><i class="fa fa-google-plus"></i></a>
+								<a class="linkdin" href="#"><i class="fa fa-linkedin"></i></a>
+								<a class="dribble" href="#"><i class="fa fa-dribbble"></i></a>
+							</div>
+						</div>
+					</div>	
+				</div><!--/ Team 1 end -->
+				<div class="col-md-3 col-sm-6">
+					<div class="team wow slideInLeft">
+						<div class="img-hexagon">
+							<img src="images/team/team2.jpg" alt="">
+							<span class="img-top"></span>
+							<span class="img-bottom"></span>
+						</div>
+						<div class="team-content">
+							<h3>Robert Aleska</h3>
+							<p>Web Designer</p>
+							<div class="team-social">
+								<a class="fb" href="#"><i class="fa fa-facebook"></i></a>
+								<a class="twt" href="#"><i class="fa fa-twitter"></i></a>
+								<a class="gplus" href="#"><i class="fa fa-google-plus"></i></a>
+								<a class="linkdin" href="#"><i class="fa fa-linkedin"></i></a>
+								<a class="dribble" href="#"><i class="fa fa-dribbble"></i></a>
+							</div>
+						</div>
+					</div>
+				</div><!--/ Team 2 end -->
+				<div class="col-md-3 col-sm-6">
+					<div class="team wow slideInRight">
+						<div class="img-hexagon">
+							<img src="images/team/team3.jpg" alt="">
+							<span class="img-top"></span>
+							<span class="img-bottom"></span>
+						</div>
+						<div class="team-content">
+							<h3>Taline Voski</h3>
+							<p>Web Designer</p>
+							<div class="team-social">
+								<a class="fb" href="#"><i class="fa fa-facebook"></i></a>
+								<a class="twt" href="#"><i class="fa fa-twitter"></i></a>
+								<a class="gplus" href="#"><i class="fa fa-google-plus"></i></a>
+								<a class="linkdin" href="#"><i class="fa fa-linkedin"></i></a>
+								<a class="dribble" href="#"><i class="fa fa-dribbble"></i></a>
+							</div>
+						</div>
+					</div>
+				</div><!--/ Team 3 end -->
+				<div class="col-md-3 col-sm-6">
+					<div class="team animate wow slideInRight">
+						<div class="img-hexagon">
+							<img src="images/team/team4.jpg" alt="">
+							<span class="img-top"></span>
+							<span class="img-bottom"></span>
+						</div>
+						<div class="team-content">
+							<h3>Alban Spencer</h3>
+							<p>Web Designer</p>
+							<div class="team-social">
+								<a class="fb" href="#"><i class="fa fa-facebook"></i></a>
+								<a class="twt" href="#"><i class="fa fa-twitter"></i></a>
+								<a class="gplus" href="#"><i class="fa fa-google-plus"></i></a>
+								<a class="linkdin" href="#"><i class="fa fa-linkedin"></i></a>
+								<a class="dribble" href="#"><i class="fa fa-dribbble"></i></a>
+							</div>
+						</div>
+					</div>
+				</div><!--/ Team 4 end -->
+			</div><!--/ Content row end -->
+		</div><!--/ Container end -->
+    </section><!--/ Team end -->
 
-  </body>
+    <!-- Parallax 1 start -->
+	<section class="parallax parallax1">
+		<div class="parallax-overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h2>Are You Ready to Buy This Template!</h2>
+					<h3>Just Click Button and Use Your Own</h3>
+					<p>
+						<a href="#" class="btn btn-primary white">Purchase Now</a>
+						<a href="#" class="btn btn-primary solid">Get In Touch</a>
+					</p>
+				</div>
+			</div>
+		</div><!-- Container end -->
+    </section><!-- Parallax 1 end -->
+
+    <!-- Pricing table start -->
+	<section id="pricing" class="pricing">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 heading">
+					<span class="title-icon pull-left"><i class="fa fa-university"></i></span>
+					<h2 class="title">Pricing Table <span class="title-desc">We Love to Work with Passion</span></h2>
+				</div>
+			</div><!-- Title row end -->
+	  		<div class="row">
+				<!-- plan start -->
+				<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
+				    <div class="plan text-center">
+				        <span class="plan-name">Basic <small>Monthly plan</small></span>
+				        <p class="plan-price"><sup class="currency">$</sup><strong>49</strong><sub>.99</sub></p>
+				        <ul class="list-unstyled">
+				            <li>100GB Monthly Bandwidth</li>
+				            <li>$100 Google AdWords</li>
+				            <li>100 Domain Hosting</li>
+				            <li>SSL Shopping Cart</li>
+				            <li>24/7 Live Support</li>
+				        </ul>
+				        <a class="btn btn-primary" href="#.">Sign Up</a>
+				    </div>
+				</div><!-- plan end -->
+
+				<!-- plan start -->
+				<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="1s">
+				    <div class="plan text-center">
+				        <span class="plan-name">Standared <small>Monthly plan</small></span>
+				        <p class="plan-price"><sup class="currency">$</sup><strong>99</strong><sub>.99</sub></p>
+				        <ul class="list-unstyled">
+				            <li>100GB Monthly Bandwidth</li>
+				            <li>$100 Google AdWords</li>
+				            <li>100 Domain Hosting</li>
+				            <li>SSL Shopping Cart</li>
+				            <li>24/7 Live Support</li>
+				        </ul>
+				        <a class="btn btn-primary" href="#.">Sign Up</a>
+				    </div>
+				</div><!-- plan end -->
+
+				<!-- plan start -->
+				<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="1.4s">
+				    <div class="plan text-center featured">
+				        <span class="plan-name">Professional <small>Monthly plan</small></span>
+				        <p class="plan-price"><sup class="currency">$</sup><strong>149</strong><sub>.99</sub></p>
+				        <ul class="list-unstyled">
+				            <li>100GB Monthly Bandwidth</li>
+				            <li>$100 Google AdWords</li>
+				            <li>100 Domain Hosting</li>
+				            <li>SSL Shopping Cart</li>
+				            <li>24/7 Live Support</li>
+				        </ul>
+				        <a class="btn btn-primary" href="#.">Sign Up</a>
+				    </div>
+				</div><!-- plan end -->
+
+				<!-- plan start -->
+				<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="1.6s">
+				    <div class="plan text-center">
+				        <span class="plan-name">Premium <small>Monthly plan</small></span>
+				        <p class="plan-price"><sup class="currency">$</sup><strong>399</strong><sub>.99</sub></p>
+				        <ul class="list-unstyled">
+				            <li>100GB Monthly Bandwidth</li>
+				            <li>$100 Google AdWords</li>
+				            <li>100 Domain Hosting</li>
+				            <li>SSL Shopping Cart</li>
+				            <li>24/7 Live Support</li>
+				        </ul>
+				        <a class="btn btn-primary" href="#.">Sign Up</a>
+				    </div>
+				</div><!-- plan end -->
+			</div><!--/ Content row end -->
+		</div><!--/  Container end-->
+	</section><!--/ Pricing table end -->
+
+
+	<!-- Testimonial start-->
+	<section class="testimonial parallax parallax2">
+		<div class="parallax-overlay"></div>
+	  	<div class="container">
+		    <div class="row">
+			    <div id="testimonial-carousel" class="owl-carousel owl-theme text-center testimonial-slide">
+			        <div class="item">
+			          	<div class="testimonial-thumb">
+			            	<img src="images/team/testimonial1.jpg" alt="testimonial">
+			          	</div>
+			          	<div class="testimonial-content">
+				            <p class="testimonial-text">
+				              Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose. Lorem Ipsum is that it as opposed to using.
+				            </p>
+			            	<h3 class="name">Sarah Arevik<span>Chief Executive</span></h3>
+			          	</div>
+			        </div>
+			        <div class="item">
+			          	<div class="testimonial-thumb">
+			            	<img src="images/team/testimonial2.jpg" alt="testimonial">
+			          	</div>
+				        <div class="testimonial-content">
+				            <p class="testimonial-text">
+				              Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose. Lorem Ipsum is that it as opposed to using.
+				            </p>
+				            <h3 class="name">Narek Bedros<span>Sr. Manager</span></h3>
+				        </div>
+			        </div>
+			        <div class="item">
+				        <div class="testimonial-thumb">
+				            <img src="images/team/testimonial3.jpg" alt="testimonial">
+				        </div>
+			          	<div class="testimonial-content">
+				            <p class="testimonial-text">
+				              Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose. Lorem Ipsum is that it as opposed to using.
+				            </p>
+			            	<h3 class="name">Taline Lucine<span>Sales Manager</span></h3>
+			          	</div>
+			        </div>
+			    </div><!--/ Testimonial carousel end-->
+		    </div><!--/ Row end-->
+	  	</div><!--/  Container end-->
+	</section><!--/ Testimonial end-->
+
+
+	<!-- Clients start -->
+	<section id="clients" class="clients">
+		<div class="container">
+			<div class="row wow fadeInLeft">
+		      <div id="client-carousel" class="col-sm-12 owl-carousel owl-theme text-center client-carousel">
+		        <figure class="item client_logo">
+		          <a href="#">
+		            <img src="images/clients/client1.png" alt="client">
+		          </a>
+		        </figure>
+		        <figure class="item client_logo">
+		          <a href="#">
+		            <img src="images/clients/client2.png" alt="client">
+		          </a>
+		        </figure>
+		        <figure class="item client_logo">
+		          <a href="#">
+		            <img src="images/clients/client3.png" alt="client">
+		          </a>
+		        </figure>
+		        <figure class="item client_logo">
+		          <a href="#">
+		            <img src="images/clients/client4.png" alt="client">
+		          </a>
+		        </figure>
+		        <figure class="item client_logo">
+		          <a href="#">
+		            <img src="images/clients/client5.png" alt="client">
+		          </a>
+		        </figure>
+		        <figure class="item client_logo">
+		          <a href="#">
+		            <img src="images/clients/client6.png" alt="client">
+		          </a>
+		        </figure>
+		        <figure class="item client_logo">
+		          <a href="#">
+		            <img src="images/clients/client7.png" alt="client">
+		          </a>
+		        </figure>
+		        <figure class="item client_logo">
+		          <a href="#">
+		            <img src="images/clients/client8.png" alt="client">
+		          </a>
+		        </figure>
+		      </div><!-- Owl carousel end -->
+	    	</div><!-- Main row end -->
+		</div><!--/ Container end -->
+	</section><!--/ Clients end -->
+	
+
+	<!-- Footer start -->
+	<footer id="footer" class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-12 footer-widget">
+					<h3 class="widget-title">Recent Posts</h3>
+					<div class="latest-post-items media">
+							<div class="latest-post-content media-body">
+								<h4><a href="#">Bulgaria claims to find Europe's 'oldest town'</a></h4>
+								<p class="post-meta">
+									<span class="author">Posted by John Doe</span>
+									<span class="post-meta-cat">in<a href="#"> Blog</a></span>
+								</p>
+							</div>
+						</div><!-- 1st Latest Post end -->
+
+						<div class="latest-post-items media">
+							<div class="latest-post-content media-body">
+								<h4><a href="#">Few Answers in Case of Murdered Law Professor</a></h4>
+								<p class="post-meta">
+									<span class="date"><i class="icon icon-calendar"></i> Mar 15, 2015</span>
+									<span class="post-meta-comments"><i class="icon icon-bubbles4"></i> <a href="#">03</a></span>
+								</p>
+							</div>
+						</div><!-- 2nd Latest Post end -->
+
+						<div class="latest-post-items media">
+							<div class="latest-post-content media-body">
+								<h4><a href="#">Over the year we have lots of experience in our field</a></h4>
+								<p class="post-meta">
+									<span class="date"><i class="icon icon-calendar"></i> Apr 17, 2015</span>
+									<span class="post-meta-comments"><i class="icon icon-bubbles4"></i> <a href="#">14</a></span>
+								</p>
+							</div>
+						</div><!-- 3rd Latest Post end -->
+	
+				</div><!--/ End Recent Posts-->
+				
+
+				<div class="col-md-4 col-sm-12 footer-widget">
+					<h3 class="widget-title">Flickr Photos</h3>
+
+					<div class="img-gallery">
+						<div class="img-container">
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/1.jpg">
+								<img src="images/gallery/1.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/2.jpg">
+								<img src="images/gallery/2.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/3.jpg">
+								<img src="images/gallery/3.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/4.jpg">
+								<img src="images/gallery/4.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/5.jpg">
+								<img src="images/gallery/5.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
+								<img src="images/gallery/6.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
+								<img src="images/gallery/7.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
+								<img src="images/gallery/8.jpg" alt="">
+							</a>
+							<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
+								<img src="images/gallery/9.jpg" alt="">
+							</a>
+						</div>
+					</div>
+				</div><!--/ end flickr -->
+
+				<div class="col-md-3 col-sm-12 footer-widget footer-about-us">
+					<h3 class="widget-title">About Craft</h3>
+					<p>We are a awward winning multinational company. We believe in quality and standard worldwide.</p>
+					<h4>Address</h4>
+					<p>1102 Saint Marys, Junction City, KS</p>
+					<div class="row">
+						<div class="col-md-6">
+							<h4>Email:</h4>
+							<p>info@craftbd.com</p>
+						</div>
+						<div class="col-md-6">
+							<h4>Phone No.</h4>
+							<p>+(785) 238-4131</p>
+						</div>
+					</div>
+                    <form action="#" role="form">
+                        <div class="input-group subscribe">
+                            <input type="email" class="form-control" placeholder="Email Address" required="">
+                            <span class="input-group-addon">
+                              <button class="btn" type="submit"><i class="fa fa-envelope-o"> </i></button>
+                            </span>                        
+                        </div>
+                    </form>
+				</div><!--/ end about us -->
+
+			</div><!-- Row end -->
+		</div><!-- Container end -->
+	</footer><!-- Footer end -->
+	
+
+	<!-- Copyright start -->
+	<section id="copyright" class="copyright angle">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<ul class="footer-social unstyled">
+						<li>
+							<a title="Twitter" href="#">
+								<span class="icon-pentagon wow bounceIn"><i class="fa fa-twitter"></i></span>
+							</a>
+							<a title="Facebook" href="#">
+								<span class="icon-pentagon wow bounceIn"><i class="fa fa-facebook"></i></span>
+							</a>
+							<a title="Google+" href="#">
+								<span class="icon-pentagon wow bounceIn"><i class="fa fa-google-plus"></i></span>
+							</a>
+							<a title="linkedin" href="#">
+								<span class="icon-pentagon wow bounceIn"><i class="fa fa-linkedin"></i></span>
+							</a>
+							<a title="Pinterest" href="#">
+								<span class="icon-pentagon wow bounceIn"><i class="fa fa-pinterest"></i></span>
+							</a>
+							<a title="Skype" href="#">
+								<span class="icon-pentagon wow bounceIn"><i class="fa fa-skype"></i></span>
+							</a>
+							<a title="Dribble" href="#">
+								<span class="icon-pentagon wow bounceIn"><i class="fa fa-dribbble"></i></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div><!--/ Row end -->
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="copyright-info">
+         			 &copy; Copyright 2019 Themefisher. <span>Designed by <a href="https://themefisher.com">Themefisher.com</a></span>
+        			</div>
+				</div>
+			</div><!--/ Row end -->
+		   <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top affix">
+				<button class="btn btn-primary" title="Back to Top"><i class="fa fa-angle-double-up"></i></button>
+			</div>
+		</div><!--/ Container end -->
+	</section><!--/ Copyright end -->
+
+	<!-- Javascript Files
+	================================================== -->
+
+	<!-- initialize jQuery Library -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<!-- Bootstrap jQuery -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!-- Style Switcher -->
+	<script type="text/javascript" src="js/style-switcher.js"></script>
+	<!-- Owl Carousel -->
+	<script type="text/javascript" src="js/owl.carousel.js"></script>
+	<!-- PrettyPhoto -->
+	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+	<!-- Bxslider -->
+	<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+	<!-- CD Hero slider -->
+	<script type="text/javascript" src="js/cd-hero.js"></script>
+	<!-- Isotope -->
+	<script type="text/javascript" src="js/isotope.js"></script>
+	<script type="text/javascript" src="js/ini.isotope.js"></script>
+	<!-- Wow Animation -->
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<!-- SmoothScroll -->
+	<script type="text/javascript" src="js/smoothscroll.js"></script>
+	<!-- Eeasing -->
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<!-- Counter -->
+	<script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+	<!-- Waypoints -->
+	<script type="text/javascript" src="js/waypoints.min.js"></script>
+	<!-- Template custom -->
+	<script type="text/javascript" src="js/custom.js"></script>
+	</div><!-- Body inner end -->
+</body>
 </html>
